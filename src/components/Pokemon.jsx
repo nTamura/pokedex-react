@@ -10,7 +10,7 @@ const Pokemon = (props) => {
           <img src={`./sprites/${id}.png`} alt="" />
         </div>
         <div className="pokemon--species--name"> 
-        <span>{id} - {pokemon.name}</span>
+          <span>{id} - {pokemon.name}</span>
         </div>
       </div>
     </div>
