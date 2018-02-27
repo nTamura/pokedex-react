@@ -33,6 +33,7 @@ class App extends Component {
 
   render(){
     return (
+<<<<<<< HEAD
       <div className="pokeapp">
         <img 
           src="../pokeball.png" 
@@ -41,6 +42,20 @@ class App extends Component {
         <h2>Hello Pokemon</h2>
         <hr/>
         <PokeList {...this.state} />
+=======
+      <div>
+        <div className="pokeapp">
+          <img 
+            src="../pokeball.png" 
+            className="App-logo" alt=""/>
+          <h1 className="white">
+            The Kanto PokeDex! This is Nics header 
+          </h1>
+          <hr/>
+          <PokeList {...this.state} />
+        <Footer />
+        </div>
+>>>>>>> development
       </div>
     )
   }
