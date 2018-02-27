@@ -38,7 +38,7 @@ class App extends Component {
             src="../pokeball.png" 
             className="App-logo" alt=""/>
           <h1 className="white">
-            The Kanto PokeDex! 
+            The Kanto PokeDex! This is Nics header 
           </h1>
           <hr/>
           <PokeList {...this.state} />
