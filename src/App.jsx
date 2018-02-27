@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PokeList from './components/PokeList'
+import Footer from './components/Footer'
 import './index.css';
 
 const url = 'https://pokeapi.co/api/v2/pokemon/?limit=151'

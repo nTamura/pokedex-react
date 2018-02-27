@@ -46,6 +46,13 @@ HTML, body{
   color: #FFF;
 }
 
+.footer {
+  width: 100%;
+  height: 55px;
+  background-color: #c9c0bb;
+  padding: 10px;
+}
+
 @keyframes App-logo-spin {
   width: 151px;
   from { transform: rotate(0deg); }
