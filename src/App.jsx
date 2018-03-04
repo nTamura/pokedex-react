@@ -37,8 +37,7 @@ class App extends Component {
         <img 
           src="../pokeball.png" 
           className="App-logo" alt=""/>
-        <h1 className="white">The Kanto PokeDex! - AW</h1>
-        <h2>Hello Pokemon</h2>
+        <h1 className="white">The Kanto PokeDex!</h1>
         <hr/>
         <PokeList {...this.state} />
       </div>
